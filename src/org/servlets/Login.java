@@ -65,12 +65,6 @@ public class Login extends HttpServlet {
                 System.out.println("Exception in closing DB resources");
             }
         }
-
-//        if (name.equals("admin") && pass.equals("admin")) {
-//            response.sendRedirect("welcome.jsp");
-//        } else {
-//            response.sendRedirect("index.jsp");
-//        }
     }
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
